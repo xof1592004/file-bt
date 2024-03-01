@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <title>bai 3</title>
+        <style>
+            .nen{
+                background-color: #DDDDDD;
+                text-align: center;
+                height: 40%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            i{
+                border-radius: 50%;
+                border: 3px solid white;
+                border-color: aqua;
+                font-size: 30px;
+                text-align: center;
+                width: 60px;
+                height: 45px;
+                
+
+            }
+            .chude{
+                font-size: 30px;
+                font-weight: bold;
+            }
+            .email{
+                width: 200px;
+                padding:10px;
+                border: none;
+                border-radius: 5px;
+            }
+            .nop{
+                background-color: aqua;
+                height: 30px;
+                border-radius: 5px;
+                border: none;
+                margin-top: 20px;
+                padding: 10px 20px;
+            }
+            .nen .chude ~ p{
+                color: gray;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="nen">
+            <i class="fa-solid fa-envelope"></i>
+            <p class="chude">Get the invite</p>
+            <p>Lorem ipsum dolor sit amet , consectetur adipiscing elit . Aliquam viverrra orci ut.</p>
+            <form>
+            <input class="email" type="email" placeholder="Enter email"><br>
+            <input class="nop" type="submit" value="REQUEST INVITE">
+            </form>
+        </div>
+    </body>
+</html>
